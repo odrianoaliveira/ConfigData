@@ -2,7 +2,9 @@ eureka:
    client:
       serviceUrl:
          defaultZone: http://127.0.0.1:8010/eureka/
-         
+
+words: Default,Words
+
 ---
 spring:
   profiles: subject
